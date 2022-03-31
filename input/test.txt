@@ -1,0 +1,44 @@
+// 测试 词法 语法分析
+/**
+ * 多行注释
+ */
+class testaa{
+    public int i = 12;
+    double a = 1.2;
+    double b = 0.314E1.2;
+    double c = 10+12i;
+    void main(){
+    // 注释
+        int a,dd = 12;
+        int b = 14;
+        double c = a + b * 2.4 + 1.2 - 1.2E+12;
+        int i;
+        ++i;
+        if(a<=b || b>c && a==c){
+            print("哈哈哈");
+            print('a');
+            print("");
+        }else{
+            print("哈哈哈");
+        }
+        for(int i=0;i<10;++i){
+            print(i);
+        }
+        print(c);
+        bool hahah = false;
+    }
+}
+
+function void main(){
+    if(a<=b || b>c && a==c){
+                print("哈哈哈");
+                print('a');
+                print("");
+    }else{
+           print("哈哈哈");
+    }
+    for(int i=0;i<10;++i){
+           print(i);
+    }
+    return 0;
+}
